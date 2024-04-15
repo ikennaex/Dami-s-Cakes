@@ -15,10 +15,11 @@
 
 .bespoke-cake {
     margin: 0 30px;
+    width: 600px;
 }
 
 .bespoke-p{
-    width: 600px;
+    width: f;
     font-size: 25px;
 }
 
@@ -43,4 +44,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .placeorder-img {
+        height: 400px;
+    }
+
+    .bespoke-p {
+        width: fit-content;
+        font-size: 20px;
+    }
 }

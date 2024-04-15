@@ -15,12 +15,15 @@ const Placeorder = () => {
         <div className="bespoke-cake">
           <p>Bespoke Cakes</p>
           <h3 className="bespoke-h3 pink">Just for you</h3>
+          <div>
+
           <p className="bespoke-p">
             I can design and create any cake perfect for your celebration
             whether it's creating your little ones dream birthday cake,
             something a bit cheeky for a friend or a big party showstopper.
             Prices start from £50.
           </p>
+          </div>
         </div>
       </div>
 
