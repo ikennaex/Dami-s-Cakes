@@ -1,0 +1,44 @@
+.flavour-txt {
+    text-align: center;
+    font-size: 35px;
+}
+
+.cake-flavour {
+    text-align: center;
+    font-size: 30px;
+}
+
+.cake-flavours {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 90px;
+}
+
+.flex-item {
+    /* width: ; */
+    padding: 0 20px;
+}
+
+.flavour-header {
+    font-size: 30px;
+}
+
+.flavour-footerdiv {
+    padding: 0 60px;
+}
+
+.flavour-footertxt {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .cake-flavours {
+        display: inline;
+    }
+}

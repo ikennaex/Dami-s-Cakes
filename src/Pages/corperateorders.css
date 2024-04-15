@@ -1,0 +1,24 @@
+.corperatemenu-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.corporate-caketext {
+    text-align: center;
+    font-size: 35px;
+}
+
+.corperateinfo-header {
+    font-size: 25px;
+}
+
+.corperateinfo-div {
+    width: 350px;
+}
+
+.corperate-img {
+    height: 500px;
+}

@@ -1,0 +1,71 @@
+.homepageimg {
+    height: 70vh;
+    width: 100%;
+}
+
+.welcometxt-div {
+    margin: 0 20px;
+}
+
+.welcome-text {
+    text-align: center;
+    font-size: 35px;
+}
+
+.bakercake-info {
+    margin: 0 20px;
+}
+
+.baker-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.baker-img {
+    height: 450px;
+}
+
+.baker-txt {
+    font-size: 20px;
+    width: 400px;
+}
+
+.cake-img {
+    height: 450px;
+}
+
+.cake-info {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cake-txt {
+    font-size: 20px;
+    width: 400px;
+}
+
+
+
+
+/* MEDIA QUERIES  */
+
+@media only screen and (max-width: 600px) {
+    .baker-img {
+        height: 250px;
+    }
+
+    .cake-img {
+        height: 250px;
+    }
+
+    .welcome-text {
+        /* font-size: 20px; */
+    }
+
+    
+}

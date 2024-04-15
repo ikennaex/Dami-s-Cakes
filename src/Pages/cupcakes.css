@@ -1,0 +1,44 @@
+.cupcake-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 70px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.cupcakes-txt { 
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.cupcake-desc {
+    width: fit-content;
+    font-size: 25px;
+}
+
+.cupcake-menutxt {
+    text-align: center;
+    font-size: 35px;
+}
+
+.cupcakeflavour-div {
+    background-color: #F6F6F6;
+    padding: 20px 0;
+    margin-top: 140px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cupcake-div {
+        flex-wrap: wrap;
+    }
+
+    .cupcake-img {
+        width: 270px;
+    }
+
+    .cupcake-desc {
+        width: fit-content;
+        font-size: 15px;
+    }
+}

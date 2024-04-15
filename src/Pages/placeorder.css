@@ -1,0 +1,46 @@
+.placeorder-div {
+    margin-top: 10px;
+}
+
+.placeorder-img {
+    height: 600px;
+}
+
+.bespokediv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bespoke-cake {
+    margin: 0 30px;
+}
+
+.bespoke-p{
+    width: 600px;
+    font-size: 25px;
+}
+
+.bespoke-h3 {
+    font-size: 50px;
+    margin: 10px;
+}
+
+.howtoorder-div {
+    margin-top: 140px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.howtoorder-txt {
+    font-size: 35px;
+    text-align: center;
+}
+
+.order-procedure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

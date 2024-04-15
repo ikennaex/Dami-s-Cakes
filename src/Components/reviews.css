@@ -1,0 +1,96 @@
+.reviews-div {
+    margin: 0 30px ;
+}
+
+.review-text {
+    font-size: 35px;
+    text-align: center;
+}
+
+.reviews-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* gap: 20px; */
+    /* text-align: center; */
+    /* background-color: aqua; */
+
+}
+
+.review-infoname {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.review-card {
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 200px !important;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    /* Drop Shadow  */
+	-webkit-animation: shadow-drop-2-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-2-tb 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.img-div {
+    width: 200px;
+}
+
+.review-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.review-txt{
+    width: 200px;
+}
+
+
+
+
+
+/* Webkits  */
+
+/* DROP SHADOW  */
+@-webkit-keyframes shadow-drop-2-tb {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px);
+              transform: translateZ(50px);
+      -webkit-box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35), 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.35), 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes shadow-drop-2-tb {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px);
+              transform: translateZ(50px);
+      -webkit-box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.15), 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 -12px 20px -12px rgba(0, 0, 0, 0.15), 0 12px 20px -12px rgba(0, 0, 0, 0.35);
+    }
+  }
+  
+  
+  /* MEDIA QUERIES  */
+
+  @media only screen and (max-width: 600px) {
+    .reviews-container {
+        
+    }    
+}

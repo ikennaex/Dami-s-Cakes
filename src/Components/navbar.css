@@ -1,0 +1,78 @@
+.navbar {
+    background-color: rgb(255, 255, 255);
+    /* position: fixed; */
+    width: 100%;
+    opacity: 0.9;
+}
+
+.logo-dami {
+    height: 90px;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.nav1st-half {
+    display: flex;
+    gap: 50px;
+}
+
+.nav2nd-half {
+    display: flex;
+    gap: 50px;
+}
+
+.celebration-cakes {
+    cursor: pointer;
+}
+
+.gpt3-navbar-menu {
+    display: none;
+}
+
+.dropdown-nav{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0px;
+    border-radius: 6.5px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+.dropdown-ul {
+    padding: 10px;
+}
+
+.dropdown-ul li {
+    padding-top: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .navbar-items {
+        display: none;
+    }
+
+    .gpt3-navbar-menu {
+        display: flex;
+        background-color: white;
+        /* height: 50px; */
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .gpt3-navbar-menu-container {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .menu-ul li {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+
+}

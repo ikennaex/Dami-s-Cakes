@@ -1,0 +1,24 @@
+.instagram-main {
+    margin-top: 140px;
+}
+
+
+.ig-txt {
+    font-size: 35px;
+    text-align: center;
+}
+
+.img-maindiv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ig-cake {
+    height: 250px;
+}
+
+.follow-igtxt {
+    text-align: center;
+}
