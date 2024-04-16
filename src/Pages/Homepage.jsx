@@ -21,7 +21,7 @@ const Homepage = () => {
         
       <div className='baker-info'>
         <img className='baker-img' src= {bakerimg} alt="" />
-        <p className='baker-txt'>Hello I'm Dami a cake maker/ baker and I run Dami's Cakes from my home in Basingstoke. I love to make people smile with my delicious home bakes and cakes for any occasion. I'm fully insured and hold a 5* hygiene rating.</p>
+        <p className='baker-txt'>Hello I'm Emmanuel a cake maker/ baker and I run Emmanuel's Cakes from my home in Basingstoke. I love to make people smile with my delicious home bakes and cakes for any occasion. I'm fully insured and hold a 5* hygiene rating.</p>
       </div>
 
       <div className='cake-info'>
