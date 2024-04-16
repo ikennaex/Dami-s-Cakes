@@ -51,7 +51,7 @@ const Contactus = () => {
 
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2496.967980599574!2d-1.0951686!3d51.2564989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48742227bc330d19%3A0x7de7083012f60423!2s134%20Culver%20Rd%2C%20Basingstoke%20RG21%203NL%2C%20UK!5e0!3m2!1sen!2sng!4v1713264166975!5m2!1sen!2sng"
-          width="600"
+          width="fit-content"
           height="450"
           style={{ border: "0" }}
           allowFullScreen=""
